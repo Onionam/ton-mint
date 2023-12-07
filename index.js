@@ -4,11 +4,11 @@ const { mnemonicToPrivateKey } = require("@ton/crypto");
 // Create Client
 const client = new TonClient({
     endpoint:
-        "https://ton.access.orbs.network/44A2c0ff5Bd3F8B62C092Ab4D238bEE463E644A2/1/mainnet/toncenter-api-v2/jsonRPC",
+        "https://go.getblock.io/bf25d23886054705a0a00549f5bf97c6/jsonRPC",
 });
 
 
-let mnemonic = "这里写你的注记词";
+let mnemonic = "brisk tomato unusual wool mean attack course misery erosion left eager sauce grunt school other satoshi wheat vapor depart fuel excuse dizzy dial tube";
 const num = 10000;
 
 async function main() {
